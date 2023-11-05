@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018-2021 PixysOS
+# Copyright (C) 2018-2021 LineageOS
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -23,10 +23,10 @@ $(call inherit-product, vendor/nothing/camera/nothing-camera.mk)
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
-# RRO (pixys)
+# RRO (lineage)
 PRODUCT_PACKAGES += \
-    PixysFrameworksSpacewar \
-    PixysSystemUISpacewar
+    LineageFrameworksSpacewar \
+    LineageSystemUISpacewar
 
 # RRO (Spacewar)
 PRODUCT_PACKAGES += \
@@ -277,7 +277,7 @@ PRODUCT_PACKAGES += \
 
 # Glyph
 PRODUCT_PACKAGES += \
-    PixysGlyphPhone1
+    ParanoidGlyphPhone1
 
 # GPS
 PRODUCT_PACKAGES += \
@@ -535,4 +535,3 @@ PRODUCT_BOOT_JARS += \
 # Protobuf
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-3.9.1-vendorcompat
-
