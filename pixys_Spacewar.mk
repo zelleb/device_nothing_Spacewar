@@ -22,9 +22,6 @@ $(call inherit-product, device/nothing/Spacewar/device.mk)
 # Inherit some common PixysOS stuff.
 $(call inherit-product, vendor/pixys/config/common_full_phone.mk)
 
-# Inherit prebuilt apex modules.
-$(call inherit-product, vendor/mainline_modules/config.mk)
-
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
 
@@ -36,7 +33,6 @@ TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_INCLUDE_OEM_CAMERA := true
-TARGET_NOT_SUPPORTS_GOOGLE_BATTERY := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := pixys_Spacewar
