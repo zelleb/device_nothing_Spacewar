@@ -28,6 +28,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 # crDroid Properties
 TARGET_ENABLE_BLUR := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_HAS_UDFPS := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_Spacewar
